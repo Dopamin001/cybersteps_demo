@@ -22,3 +22,15 @@ if (zahl % 2 === 0) {
 } else {
     console.log("17 ist ungerade");
 }
+
+let note = 2;
+
+if (note === 1 || note === 2) {
+    console.log("gut");
+} else if (note === 3 || note === 4) {
+    console.log("bestanden");
+} else if (note === 5 || note === 6) {
+    console.log("schlecht");
+} else {
+    console.log("Ungültige Note");
+}
