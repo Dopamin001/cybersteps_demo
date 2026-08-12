@@ -10,3 +10,17 @@ if (zahl % 2 === 0) {
 } else {
     console.log("Die Zahl ist ungerade");
 }
+
+let note = 2;
+
+if (typeof note !== "number") {
+    console.log("Wert ist keine Zahl");
+} else if (note >= 1 && note <= 2) {
+    console.log("gut");
+} else if (note >= 3 && note <= 4) {
+    console.log("bestanden");
+} else if (note >= 5 && note <= 6) {
+    console.log("schlecht");
+} else {
+    console.log("ungültige Note");
+}
